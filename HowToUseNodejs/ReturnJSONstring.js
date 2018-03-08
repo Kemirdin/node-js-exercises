@@ -1,5 +1,5 @@
-var http = require('http');
-var jsonData = {
+const http = require('http');
+const jsonData = {
     'name': 'NodeJS',
     'lang': 'Javascript',
     'use': 'Write once, run everywhere'
