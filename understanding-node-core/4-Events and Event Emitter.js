@@ -1,5 +1,5 @@
-const events = require ('events');
-const emitter = new events.EventEmitter ();
+var events = require ('events');
+var emitter = new events.EventEmitter ();
 
 //listening 'docall' event
 emitter.on ('docall', function () {
