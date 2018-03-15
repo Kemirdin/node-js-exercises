@@ -1,4 +1,6 @@
-const buf = new Buffer (2);
+//creating buffer from size=2
+
+var buf = new Buffer (2);
 buf[0] = 1;
 buf[1] = 2;
 console.log (buf);
@@ -6,17 +8,17 @@ console.log (buf.length);
 
 //creating buffer from array
 
-const arr = [1, 2, 3, 4];
-const buff = new Buffer (arr);
+var arr = [1, 2, 3, 4];
+var buff = new Buffer (arr);
 console.log (buff);
 
 //creating buffer from string
-const buffer = new Buffer ('hello world!');
+var buffer = new Buffer ('hello world!');
 console.log (buffer);
 console.log (buffer.length);
 
 //Decode Buffers
-const buffer = new Buffer ('hello world!');
+var buffer = new Buffer ('hello world!');
 console.log (buffer);
 console.log (buffer.toString ()); //Hello World!
 console.log (buffer.toString ('ascii')); //Hello World!
