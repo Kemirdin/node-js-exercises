@@ -1,4 +1,6 @@
-const fs = require ('fs');
+/* Readable stream in non-flowing mode */
+
+var fs = require ('fs');
 var stream = fs.createReadStream ('./input.txt');
 
 //non-flowing mode: stream pause is not possible
